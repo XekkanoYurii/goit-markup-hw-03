@@ -66,6 +66,7 @@ a {
 .header-nav {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 
 .logo,
@@ -77,7 +78,6 @@ a {
   line-height: 1.17;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  display: flex;
   margin-right: 76px;
 }
 .logo-dark {
@@ -109,25 +109,23 @@ a {
   gap: 40px;
 }
 /*  ADDRESS*/
-.address-link-address {
-  font-style: normal;
-  display: flex;
-  width: 344px;
-  margin-top: 24px;
-  margin-right: 156px;
-  margin-bottom: 24px;
-  margin-left: 332px;
-}
+
 .ul-link-address {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
+}
+.address-link-address {
+  padding-left: 332px;
 }
 .link-address {
+  font-style: normal;
   color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .link-address:hover,
 .link-address:focus {
