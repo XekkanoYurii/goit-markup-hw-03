@@ -57,6 +57,9 @@ a {
   text-decoration: none;
 }
 /* Header */
+.header-section {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-container {
   display: flex;
 }
@@ -65,7 +68,8 @@ a {
   align-items: center;
 }
 
-.logo {
+.logo,
+.logo-footer {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -74,11 +78,7 @@ a {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   display: flex;
-  width: 115px;
-  margin-top: 24px;
-  margin-right: 0;
-  margin-bottom: 24px;
-  margin-left: 156px;
+  margin-right: 76px;
 }
 .logo-dark {
   color: #2e2f42;
@@ -97,25 +97,20 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .ul-header-link:hover,
 .ul-header-link:focus {
   color: #404bbf;
 }
-.address-link-address {
-  font-style: normal;
-}
+
 .ul-header-list {
   display: flex;
-  margin-top: 24px;
-  margin-right: 0;
-  margin-bottom: 24px;
-  margin-left: 76px;
-  width: 261px;
   gap: 40px;
 }
 /*  ADDRESS*/
 .address-link-address {
+  font-style: normal;
   display: flex;
   width: 344px;
   margin-top: 24px;
