@@ -173,6 +173,20 @@ a {
   cursor: pointer;
 }
 /* SEC */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .section-advantages {
   background-color: #fff;
   padding: 120px 0;
@@ -237,6 +251,7 @@ a {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .ourteam-text {
   line-height: 1.5;
