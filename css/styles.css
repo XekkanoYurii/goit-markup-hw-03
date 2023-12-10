@@ -91,13 +91,17 @@ a {
   width: 71px;
 }
 /* NAV */
-.ul-header-link {
+.ul-header-link,
+.ul-header-link-one {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+}
+.ul-header-link-one {
+  margin-right: 0;
 }
 .ul-header-link:hover,
 .ul-header-link:focus {
