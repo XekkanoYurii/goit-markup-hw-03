@@ -114,9 +114,9 @@ a {
 .ul-link-address {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
-  padding-left: 332px;
+  padding-top: 24px;
 }
+
 .link-address-nomber,
 .link-address-mail {
   font-style: normal;
@@ -126,6 +126,9 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+}
+.link-address-nomber {
+  padding-left: 332px;
 }
 .link-address-mail {
   margin-right: 0;
