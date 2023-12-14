@@ -68,8 +68,7 @@ a {
   padding: 24px 0;
 }
 
-.logo,
-.logo-footer {
+.logo {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -224,7 +223,6 @@ a {
   gap: 24px;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 120px;
 
   text-align: center;
 }
@@ -283,7 +281,6 @@ a {
   row-gap: 48px;
 }
 .li-ourportfolio {
-  border: 1px solid #e7e9fc;
   width: calc((100% - 48px) / 3);
 }
 .ourportfolio-words {
@@ -302,13 +299,8 @@ a {
 .ourportfolio-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
 }
 
-.ourportfolio-title,
-.ourportfolio-text {
-  padding-left: 16px;
-}
 /* footer */
 .logo-white {
   color: #f4f4fd;
