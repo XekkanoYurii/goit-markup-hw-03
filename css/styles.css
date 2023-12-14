@@ -8,7 +8,6 @@ body {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  width: 1440px;
 }
 .container {
   width: 1158px;
@@ -97,7 +96,7 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0;
+  display: block;
 }
 
 .ul-header-link:hover,
@@ -110,28 +109,26 @@ a {
   gap: 40px;
 }
 /*  ADDRESS*/
+.address {
+  margin-left: auto;
+  font-style: normal;
+}
 
 .ul-link-address {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
 }
 .link-address-nomber,
 .link-address-mail {
-  font-style: normal;
   color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  display: block;
 }
-.link-address-nomber {
-  padding-left: 332px;
-}
-.link-address-mail {
-  margin-right: 0;
-}
+
 .link-address:hover,
 .link-address:focus {
   color: #404bbf;
